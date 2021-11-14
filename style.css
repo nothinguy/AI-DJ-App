@@ -1,0 +1,139 @@
+.heading {
+
+    font-size:23px;
+    width: 100%;
+    margin: 0px;
+
+}
+.note{
+font-size: 15px;
+color:white;
+text-align:center;
+top:0px;
+}
+body{
+    background-size: cover;
+    color: hsl(240,30,10);
+}
+
+
+#Songname:hover{
+    text-shadow: 4px 4px 6px black;
+    animation-name: rainbow;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+
+}
+
+#color1{
+
+color:white;
+animation-name: rainbow;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+}
+
+
+
+
+@keyframes rainbow {
+    0% {
+        box-shadow: 1px 1px 50px lime;
+    }
+  
+    12.5% {
+        box-shadow: 1px 1px 150px magenta;
+    }
+  
+    25% {
+        box-shadow: 1px 1px 50px yellow;
+    }
+  
+    37.5% {
+        box-shadow: 1px 1px 150px rgb(0, 255, 0);
+    }
+  
+    50% {
+        box-shadow: 1px 1px 50px rgb(0, 255, 255);
+    }
+  
+    62.5% {
+        box-shadow: 1px 1px 150px white;
+    }
+  
+    75% {
+        box-shadow: 1px 1px 150px orange;
+    }
+  
+    80% {
+        box-shadow: 1px 1px 50px rgb(255, 0, 255);
+    }
+    90% {
+        box-shadow: 1px 1px 50px powderblue;
+    }
+  
+    100% {
+        box-shadow: 1px 1px 50px red;
+    }
+  }
+
+  #color1:hover{
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+
+
+  }
+  #Songname:hover{
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+
+
+  }
+
+
+  canvas {
+    animation-name: rainbow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+   
+    border-radius: 50px;
+  }
+#start {
+margin-left: 10px;
+margin-top:17px;
+
+}
+#stop {
+    margin-right: 10px;
+    margin-top:17px;
+}
+
+
+      .btn:hover {
+        background: none;
+        border: 2px solid;
+        border-bottom-width: 2px;
+        font: inherit;
+        letter-spacing: inherit;
+        margin: 1px;
+        padding: 5px 10px;
+        text-transform: inherit;
+        transition: color 1s;
+      }
+
